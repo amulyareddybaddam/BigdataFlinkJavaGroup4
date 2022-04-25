@@ -1,4 +1,4 @@
-## This is  Dipiks Sharma.
+## This is  Dipika Sharma
 # page-rank-beam java
 
 Java Quickstart for Apache Beam
@@ -17,7 +17,7 @@ v1.5.0
 
 ## If extension is not working, please reinstall the extensions and restart the VScode.
 
-## Run and Execute wordcount 
+## Run and Execute 
 ```PowerShell
 
 ```
