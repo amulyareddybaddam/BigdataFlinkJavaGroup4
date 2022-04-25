@@ -16,7 +16,7 @@ PageRank (PR) is a Google Search algorithm that ranks websites in search engine 
 ## Team Members
 1. #### Naga Teja Neerukonda
 
-<img src="BigdataFlinkJavaGroup4\Images\Teja.jpeg"
+<img src="https://github.com/amulyareddybaddam/BigdataFlinkJavaGroup4/blob/main/Images/Teja.jpeg"
      alt="Teja_N"
      style="float: left; margin-right: 10px;" />
 
