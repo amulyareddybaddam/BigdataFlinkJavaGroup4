@@ -1,6 +1,3 @@
-
-
-
 # This is  Naga Teja.
 # page-rank-beam java
 

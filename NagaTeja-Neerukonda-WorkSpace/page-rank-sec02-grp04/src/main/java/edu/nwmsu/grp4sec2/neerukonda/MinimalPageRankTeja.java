@@ -93,9 +93,7 @@ static class Job1Finalizer extends DoFn<KV<String, Iterable<String>>, KV<String,
    PCollection<KV<String,String>> pColKVpair2 = TejaKVPairMapper(p,"python.md",datFolder);
    PCollection<KV<String,String>> pColKVpair3 = TejaKVPairMapper(p,"java.md",datFolder);
    PCollection<KV<String,String>> pColKVpair4 = TejaKVPairMapper(p,"README.md",datFolder);
-
-
-   
+ 
     PCollectionList<KV<String, String>> pColList = PCollectionList.of(pColKVpair1).and(pColKVpair2).and(pColKVpair3).and(pColKVpair4);
     PCollection<KV<String, String>> list = pColList.apply(Flatten.<KV<String,String>>pCollections());
 
