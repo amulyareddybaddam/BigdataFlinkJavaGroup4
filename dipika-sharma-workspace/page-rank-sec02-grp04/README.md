@@ -1,3 +1,5 @@
+My README.md
+
 #word-count-beam
 
 Java Quickstart for Apache Beam
@@ -33,5 +35,18 @@ mvn compile exec:java -D exec.mainClass=org.apache.beam.examples.WordCount `
 ## Execute PR Quick Start
 
 ```PowerShell
-mvn compile exec:java -D exec.mainClass=org.apache.beam.examples.MinimalPageRankSharma 
+mvn compile exec:java -D exec.mainClass=org.apache.beam.examples.MinimalPageRankCase 
 ```
+
+### Group-Repo Launch page
+<https://github.com/amulyareddybaddam/BigdataFlinkJavaGroup4>
+
+
+### My Wiki Link
+
+
+### Link to MyCode folder
+
+
+
+I have completed the Job1 and Job1Finilizer till now, got some issues with the Job2Mapper method, working on it.
