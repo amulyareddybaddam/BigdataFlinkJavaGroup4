@@ -35,7 +35,7 @@ mvn compile exec:java -D exec.mainClass=org.apache.beam.examples.WordCount `
 ## Execute PR Quick Start
 
 ```PowerShell
-mvn compile exec:java -D exec.mainClass=org.apache.beam.examples.MinimalPageRankCase 
+mvn compile exec:java -D exec.mainClass=org.apache.beam.examples.MinimalPageRankSharma
 ```
 
 ### Group-Repo Launch page
@@ -44,9 +44,8 @@ mvn compile exec:java -D exec.mainClass=org.apache.beam.examples.MinimalPageRank
 
 ### My Wiki Link
 
-
+https://github.com/amulyareddybaddam/BigdataFlinkJavaGroup4/wiki/Dipika-Sharma:-My-wiki 
 ### Link to MyCode folder
 
+https://github.com/amulyareddybaddam/BigdataFlinkJavaGroup4/tree/main/dipika-sharma-workspace 
 
-
-I have completed the Job1 and Job1Finilizer till now, got some issues with the Job2Mapper method, working on it.
