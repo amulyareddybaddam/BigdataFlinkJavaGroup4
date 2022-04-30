@@ -9,11 +9,10 @@ import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.options.PipelineOptions;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
 import org.apache.beam.sdk.transforms.Combine;
-import org.apache.beam.sdk.transforms.Count;
 import org.apache.beam.sdk.transforms.DoFn;
-import org.apache.beam.sdk.transforms.DoFn.*;
+// import org.apache.beam.sdk.transforms.DoFn.*;
 import org.apache.beam.sdk.transforms.Filter;
-import org.apache.beam.sdk.transforms.FlatMapElements;
+// import org.apache.beam.sdk.transforms.FlatMapElements;
 import org.apache.beam.sdk.transforms.Flatten;
 import org.apache.beam.sdk.transforms.GroupByKey;
 import org.apache.beam.sdk.transforms.MapElements;
@@ -23,8 +22,8 @@ import org.apache.beam.sdk.values.KV;
 import org.apache.beam.sdk.values.TypeDescriptors;
 import org.apache.beam.sdk.values.PCollection;
 import org.apache.beam.sdk.values.PCollectionList;
-import org.apache.beam.sdk.values.PDone;
-import org.apache.beam.sdk.values.TypeDescriptor;
+// import org.apache.beam.sdk.values.PDone;
+// import org.apache.beam.sdk.values.TypeDescriptor;
 
 public class MinimalPageRankTeja {
 
@@ -166,18 +165,18 @@ public class MinimalPageRankTeja {
   }
 
 
-  private static PCollection<KV<String, RankedPage>> runJob2Iteration(
-      PCollection<KV<String, RankedPage>> kvReducedPairs) {
+  // private static PCollection<KV<String, RankedPage>> runJob2Iteration(
+  //     PCollection<KV<String, RankedPage>> kvReducedPairs) {
 
-    PCollection<KV<String, RankedPage>> mappedKVs = kvReducedPairs.apply(ParDo.of(new Job2Mapper()));
+  //   PCollection<KV<String, RankedPage>> mappedKVs = kvReducedPairs.apply(ParDo.of(new Job2Mapper()));
 
-    PCollection<KV<String, Iterable<RankedPage>>> reducedKVs = mappedKVs
-        .apply(GroupByKey.<String, RankedPage>create());
+  //   PCollection<KV<String, Iterable<RankedPage>>> reducedKVs = mappedKVs
+  //       .apply(GroupByKey.<String, RankedPage>create());
 
-      PCollection<KV<String, RankedPage>> updatedOutput = reducedKVs.apply(ParDo.of(new Job2Updater()));
+  //     PCollection<KV<String, RankedPage>> updatedOutput = reducedKVs.apply(ParDo.of(new Job2Updater()));
 
-    return updatedOutput;
-  }
+  //   return updatedOutput;
+  // }
 
   public static void deleteFiles() {
     final File file = new File("./");
