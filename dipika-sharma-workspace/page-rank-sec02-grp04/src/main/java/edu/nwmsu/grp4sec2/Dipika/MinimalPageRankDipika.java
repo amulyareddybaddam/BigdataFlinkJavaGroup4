@@ -106,13 +106,13 @@ public class MinimalPageRankDipika {
 
     String datFolder = "web04";
    // String file = "go.md";
-    PCollection<KV<String, String>> pColKVpair1 = DipikaKVPairMapper(p, "go.md", datFolder);
-    PCollection<KV<String, String>> pColKVpair2 = DipikaKVPairMapper(p, "python.md", datFolder);
-    PCollection<KV<String, String>> pColKVpair3 = DipikaKVPairMapper(p, "java.md", datFolder);
-    PCollection<KV<String, String>> pColKVpair4 = DipikaKVPairMapper(p, "README.md", datFolder);
+    PCollection<KV<String, String>> pCol1 = DipikaKVPairMapper(p, "go.md", datFolder);
+    PCollection<KV<String, String>> pCol2 = DipikaKVPairMapper(p, "python.md", datFolder);
+    PCollection<KV<String, String>> pCol3 = DipikaKVPairMapper(p, "java.md", datFolder);
+    PCollection<KV<String, String>> pCol4 = DipikaKVPairMapper(p, "README.md", datFolder);
 
-    PCollectionList<KV<String, String>> pColList = PCollectionList.of(pColKVpair1).and(pColKVpair2).and(pColKVpair3)
-        .and(pColKVpair4);
+    PCollectionList<KV<String, String>> pColList = PCollectionList.of(pCol1).and(pCol2).and(pCol3)
+        .and(pCol4);
     PCollection<KV<String, String>> list = pColList.apply(Flatten.<KV<String, String>>pCollections());
 
     // Group by Key to get a single record for each page
