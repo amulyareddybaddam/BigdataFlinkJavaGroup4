@@ -49,4 +49,15 @@ PageRank (PR) is a Google Search algorithm that ranks websites in search engine 
    |Work Space|[Link](https://github.com/amulyareddybaddam/BigdataFlinkJavaGroup4/tree/main/Vivek-Tadiparthi-WorkSpace)|
    |README|[Link](https://github.com/amulyareddybaddam/BigdataFlinkJavaGroup4/blob/main/Vivek-Tadiparthi-WorkSpace/README.md)|
    |Wiki|[Link](https://github.com/amulyareddybaddam/BigdataFlinkJavaGroup4/wiki/Vivek-Tadiparthi)|
+   
+ 4.  #### Amulya Baddam
+<img src="https://avatars.githubusercontent.com/u/89153397?v=4"
+     alt="Vivek"
+     style="float: left; margin-right: 10px;" />
+
+ |Page|Links|
+   |--|--|
+   |Work Space|[Link](https://github.com/amulyareddybaddam/BigdataFlinkJavaGroup4/tree/main/Amulya-Baddam-WorkSpace)|
+   |README|[Link](https://github.com/amulyareddybaddam/BigdataFlinkJavaGroup4/blob/main/Amulya-Baddam-WorkSpace/README.md)|
+   |Wiki|[Link](https://github.com/amulyareddybaddam/BigdataFlinkJavaGroup4/wiki/Amulya-Baddam)|
 
